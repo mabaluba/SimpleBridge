@@ -8,9 +8,9 @@ namespace ConsoleApp2
         {
             Motion myMotion1 = new Walk (new Speed());
             myMotion1.Move();
-            myMotion1 = new Run(new SpeedSlow());
+            myMotion1 = new Run(new SpeedSlow());//create new implementation
             myMotion1.Move();
-            myMotion1.MySpeed = new SpeedFast();
+            myMotion1.MySpeed = new SpeedFast();// runtime implementation
             myMotion1.Move();
 
         }
